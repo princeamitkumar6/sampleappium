@@ -10,6 +10,7 @@ public class IOSSlider extends IOSBaseTest{
 	@Test
 	public void IOSSliderTest() throws InterruptedException {
 		
+		// IOS Slider Test
 		WebElement slider = iosDriver.findElement(AppiumBy.iOSClassChain("**/XCUIElementTypeSlider[`name == 'AppElem'`]"));
 		slider.sendKeys("0%");
 		System.out.println(slider.getDomAttribute("value"));

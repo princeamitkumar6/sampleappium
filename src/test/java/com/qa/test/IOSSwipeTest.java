@@ -38,18 +38,6 @@ public class IOSSwipeTest extends IOSBaseTest {
 //		    System.out.println("Button is not clickable");
 //		}
 		
-//		WebElement element = iosDriver.findElement(By.xpath("//XCUIElementTypeButton[@name=\"Select\"]"));
-//		int x = element.getRect().getX() + (element.getRect().getWidth() / 2);
-//		int y = element.getRect().getY() + (element.getRect().getHeight() / 2);
-//		
-//		PointerInput finger = new PointerInput(PointerInput.Kind.TOUCH, "finger");
-//
-//		Sequence tap = new Sequence(finger, 0)
-//		        .addAction(finger.createPointerMove(Duration.ZERO, PointerInput.Origin.viewport(), x, y))
-//		        .addAction(finger.createPointerDown(PointerInput.MouseButton.LEFT.asArg()))
-//		        .addAction(finger.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
-//
-//		iosDriver.perform(Arrays.asList(tap));
 //
 //		WebElement element = iosDriver.findElement(By.xpath("//XCUIElementTypeButton[@name='Select']"));
 //		System.out.println("Is displayed: " + element.isDisplayed());
