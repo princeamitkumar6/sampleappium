@@ -13,7 +13,7 @@ public class AndroidDriverFactory {
 
 	private AndroidDriver androidDriver;
 	private Properties prop;
-
+	// JUST ADDING COMMENT 
 	public enum DeviceType {
 		ANDROID, IOS;
 
