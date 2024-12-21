@@ -18,6 +18,7 @@ public class IOSLongPress extends IOSBaseTest {
 	// Line 1: Changes from kumar
 
 
+
 	@Test
 	public void IOSLongPressTest() {
 		iosDriver.findElement(AppiumBy.accessibilityId("Steppers")).click();
