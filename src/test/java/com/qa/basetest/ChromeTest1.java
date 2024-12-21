@@ -30,7 +30,10 @@ public class ChromeTest1 {
 		options.addArguments("--headless");
 		driver = new ChromeDriver(options);
 		driver.get(url);
-
+		
+		// Changes 1
+		System.out.println("Test 1");
+		
 		Random random = new Random();
 		String seachtext = searchKeywords[random.nextInt(searchKeywords.length)];
 
