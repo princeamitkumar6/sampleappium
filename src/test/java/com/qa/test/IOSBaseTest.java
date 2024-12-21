@@ -20,6 +20,8 @@ public class IOSBaseTest {
 
     @BeforeClass
     public void configAppium() {
+    	
+    	// Start IOS server
         try {
             service = new AppiumServiceBuilder()
                     .withAppiumJS(new File("/usr/local/lib/node_modules/appium/build/lib/main.js"))
@@ -34,6 +36,7 @@ public class IOSBaseTest {
             options.setPlatformVersion("18.1");
             options.setWdaLaunchTimeout(Duration.ofSeconds(60));
 
+            // Start android driver
             iosDriver = new IOSDriver(new URL("http://127.0.0.1:4723"), options);
             iosDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         } catch (MalformedURLException e) {
