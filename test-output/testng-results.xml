@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-18T17:32:36 IST" name="Default suite" finished-at="2024-12-18T17:32:48 IST" duration-ms="11518">
+    <groups>
+    </groups>
+    <test started-at="2024-12-18T17:32:36 IST" name="Default test" finished-at="2024-12-18T17:32:48 IST" duration-ms="11518">
+      <class name="com.qa.basetest.ChromeTest1">
+        <test-method signature="testDemo()[pri:0, instance:com.qa.basetest.ChromeTest1@1afd44cb]" started-at="2024-12-18T17:32:36 IST" name="testDemo" finished-at="2024-12-18T17:32:48 IST" duration-ms="11501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+      </class> <!-- com.qa.basetest.ChromeTest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
