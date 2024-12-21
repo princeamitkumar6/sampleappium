@@ -16,7 +16,7 @@ import io.appium.java_client.AppiumBy;
 public class IOSLongPress extends IOSBaseTest {
 	
 
-//Line 1: Changes from amit
+	// Line 1: Changes from amit
 
 	@Test
 	public void IOSLongPressTest() {
