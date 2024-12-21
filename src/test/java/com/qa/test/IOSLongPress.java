@@ -15,8 +15,6 @@ import io.appium.java_client.AppiumBy;
 
 public class IOSLongPress extends IOSBaseTest {
 	
-	// Line 1: Changes from kumar
-
 
 
 	@Test
@@ -29,10 +27,7 @@ public class IOSLongPress extends IOSBaseTest {
 		params.put("duration", 5);
 		iosDriver.executeScript("mobile:touchAndHold", params);
 	}
-	private void Syso() {
-		// TODO Auto-generated method stub
 
-	}
 	public void longpressIOS(By by, int timeOut) {
 		WebDriverWait wait = new WebDriverWait(iosDriver, Duration.ofSeconds(0));
 		WebElement ele = wait.until(ExpectedConditions.visibilityOfElementLocated(by));
