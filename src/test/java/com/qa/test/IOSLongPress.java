@@ -14,6 +14,9 @@ import org.testng.annotations.Test;
 import io.appium.java_client.AppiumBy;
 
 public class IOSLongPress extends IOSBaseTest {
+	
+
+//Line 1: Changes from amit
 
 	@Test
 	public void IOSLongPressTest() {
