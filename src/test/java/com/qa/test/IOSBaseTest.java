@@ -29,7 +29,8 @@ public class IOSBaseTest {
                     .usingPort(4723)
                     .build();
             service.start();
-
+            
+            // Option to set
             XCUITestOptions options = new XCUITestOptions();
             options.setDeviceName("iPhone 16");
             options.setApp("/Users/ditsdev/eclipse-workspace/Appium/src/test/resource/TestApp 3.app");
@@ -46,6 +47,7 @@ public class IOSBaseTest {
         }
     }
 
+    // Close the server 
     @AfterClass
     public void tearDown() {
         if (iosDriver != null) {
