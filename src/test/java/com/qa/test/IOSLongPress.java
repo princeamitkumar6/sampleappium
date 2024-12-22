@@ -14,25 +14,20 @@ import org.testng.annotations.Test;
 import io.appium.java_client.AppiumBy;
 
 public class IOSLongPress extends IOSBaseTest {
-	
 
-    // Line 1: Changes from amit and kumar
-
-
-
-
+	// Line 1: Changes from amit and kumar
 
 	@Test
 	public void IOSLongPressTest() {
 		iosDriver.findElement(AppiumBy.accessibilityId("Steppers")).click();
-		WebElement ele = iosDriver.findElement(AppiumBy.iOSClassChain("**/XCUIElementTypeButton[`label == 'Increment'`][3]"));
+		WebElement ele = iosDriver
+				.findElement(AppiumBy.iOSClassChain("**/XCUIElementTypeButton[`label == 'Increment'`][3]"));
 
 		Map<String, Object> params = new HashMap<>();
 		params.put("element", ((RemoteWebElement) ele).getId());
 		params.put("duration", 5);
 		iosDriver.executeScript("mobile:touchAndHold", params);
 	}
-
 
 	public void longpressIOS(By by, int timeOut) {
 		WebDriverWait wait = new WebDriverWait(iosDriver, Duration.ofSeconds(0));
